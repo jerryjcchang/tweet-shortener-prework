@@ -13,4 +13,4 @@ def dictionary
   }
 end
 
-def 
+def word_subsituter
