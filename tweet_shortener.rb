@@ -1,5 +1,7 @@
 def dictionary
   change = {
-    "hello" => "hi"
+    "hello" => "hi",
+    "to" => "2",
+    "for"
     
   }
