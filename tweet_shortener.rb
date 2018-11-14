@@ -14,5 +14,5 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  if dictionary.keys
+  if dictionary.keys.include?
   
