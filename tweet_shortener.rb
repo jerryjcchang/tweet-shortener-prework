@@ -39,11 +39,5 @@ end
 
 
 def shortened_tweet_truncator(tweet)
-  tweet.split(" ").map do |post|
-    if post.length > 140
-      word_substituter(phrase)[0..140] + "..."
-    else
-      post
-    end
-  end.join(" ")
-end
+  if tweet.chars.length > 140
+    
