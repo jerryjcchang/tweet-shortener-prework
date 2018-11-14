@@ -41,4 +41,4 @@ end
 
 def shortened_tweet_truncator
   tweet.split(" ").map do |post|
-    if post.
+    if post.length > 140
