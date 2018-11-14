@@ -14,5 +14,6 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  if dictionary.keys.include?
+  if dictionary.keys.include?(word.downcase)
+    
   
