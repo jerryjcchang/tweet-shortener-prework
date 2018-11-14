@@ -40,4 +40,5 @@ end
 
 def shortened_tweet_truncator(tweet)
   if tweet.chars.length > 140
-    truncated = tweet.chars[0..136].push("...")
+    truncated = tweet.chars[0..136].push("...").join(" ")
+    
